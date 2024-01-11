@@ -5,5 +5,6 @@ const maxNumbr = arr=> {
 const minNumbr = arr=> {
     return Math.min.apply(null, arr);
 }
-console.log(maxNumbr(numbr))
-console.log(minNumbr(numbr))
+document.getElementById('minNumber').innerHTML = `Minmum Number is ${minNumbr(numbr)}`
+document.getElementById('maxNumber').innerHTML = `Minmum Number is ${maxNumbr(numbr)}`
+
